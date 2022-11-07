@@ -1,0 +1,247 @@
+body {
+  font-family: 'Arial';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans';
+}
+
+/* Nav menu */
+
+.nav-image {
+  background-image: url("images/navbar.svg");
+  height: 324px;
+  position: relative;
+  width: 100%;
+
+}
+
+.nav-menu {
+  padding: 0 10%;
+
+}
+
+.logo {
+  width: 100px;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 60px;
+}
+
+
+/* Header section */
+.header {
+  position: relative;
+  top:40%;
+  padding: 0 10%;
+
+}
+
+.text-header {
+  padding-right: 50px;
+    padding: 0 5%;
+}
+h1 {
+  font-size: 3.5rem;
+  }
+
+.header-span, span {
+  color:#15E7BD;
+}
+
+.header  p {
+padding: 10px 50px 10px 0;
+line-height: 1.8rem;
+}
+
+/* This is the second section */
+
+.second-image{
+
+width:100%;}
+
+/* - This is the third section --> */
+
+.third-section, .top-why, .portfolio {
+  text-align: center;
+  padding: 1% 20%;
+}
+
+
+/* this is the fourth section */
+.fourth-section {
+  padding: 0 5%;
+   text-align: center;
+      justify-content: center;
+
+}
+.card {
+ text-align: center;
+ margin: 10px 20px;
+ border-radius: 20px;
+ box-shadow: 0 2px 3px rgba(129, 179, 169, 0.25);
+ padding: 24px 16px;
+}
+
+.card h3 {
+  color: #15E7BD;
+  font-size: 1.1rem;
+  line-height: 27px;
+  margin: 20px 0;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #000000;
+
+
+}
+/* video-section */
+
+.video-section {
+  margin: 8% 0;
+ }
+.right-video-div {
+  background-color: #08003F;
+  color: white;
+  padding: 8% 5%;
+  border-radius: 0 20px 0;
+
+}
+
+/* This is the why choose us section */
+
+.bottom-why .card {
+ text-align: left;
+ margin: 10px 20px;
+ border-radius: 20px;
+ box-shadow: 0 2px 3px rgba(129, 179, 169, 0.25);
+ padding: 24px 16px;
+}
+
+.card h2 {
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+}
+
+.card h3 {
+  color: #15E7BD;
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+
+
+}
+
+/* This is the portfolio section */
+
+.portfolio-section {
+  margin-top: 10%;
+}
+
+.portfolio h3 {
+  color: #15E7BD;
+}
+
+/* This is the slider section */
+
+.controls {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* .slider {
+  position: absolute;
+} */
+
+.slider-1 {
+  position: absolute;
+left: 70%;
+}
+
+.slider-2 {
+  position: absolute;
+  right: 15px;
+}
+
+.indicators {
+  position: absolute;
+}
+
+/* This is the form section */
+
+.form-section {
+  text-align: center;
+  padding: 10% 20%;
+  background-color: #08003F;
+
+}
+
+.form-real {
+  margin-top: 50px;
+  background-color: #FFFFFF;
+box-shadow: 0 4px 4px #08003F;
+border-radius: 50px;
+padding: 10%;
+}
+
+/* This is the footer area */
+footer {
+  position: relative;
+}
+.upper-footer {
+  background-color: #EEFFFC;
+  margin: 10% 10% 0;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  top: 50px;
+border-radius: 20px;
+
+}
+
+.left-upper {
+  padding-left: 50px;
+}
+.lower-footer {
+
+  background-color: #08003F;
+  padding: 10% 10% 4%;
+  position: relative;
+
+}
+
+.a-down {
+  margin-right: 0;
+
+}
+
+.img-down {
+  width: 50px;
+
+}
+
+hr {
+  color: #DBDADA;
+
+}
+.copyright {
+position: absolute;
+bottom: 5px;
+color: #DBDADA;
+}
+
+@media (max-width: 1028px) {
+  .header-section{
+    text-align:center;
+  }
+
+}
