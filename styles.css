@@ -60,7 +60,12 @@ line-height: 1.8rem;
 
 .second-image{
 
-width:100%;}
+width:100%;
+}
+
+.second-image:hover {
+  position: relative;
+}
 
 /* - This is the third section --> */
 
@@ -110,9 +115,11 @@ width:100%;}
   background-color: #08003F;
   color: white;
   padding: 8% 5%;
-  border-radius: 0 20px 0;
+  border-radius: 0 10px 10px 0;
 
 }
+
+
 
 /* This is the why choose us section */
 
@@ -239,9 +246,23 @@ bottom: 5px;
 color: #DBDADA;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 991px) {
   .header-section{
     text-align:center;
+  }
+
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
 }
